@@ -120,3 +120,68 @@ body {
     color: #8B4513;
     font-size: 18px;
 }
+
+.specials {
+    text-align: center;
+    background-color: #E8DCC4;
+    padding: 40px 20px;
+}
+
+.specials h2 {
+    color: #8B4513;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.review-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review-card h4 {
+    color: #8B4513;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8B4513;
+    color: white;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
